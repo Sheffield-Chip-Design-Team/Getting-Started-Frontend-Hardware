@@ -61,7 +61,7 @@ sudo apt install git
 git --version
 ```
 
-**2.2** Configure Git
+**2.1.1** Configure Git
 
 ```bash
 git config --global user.name "Your Name"
@@ -69,6 +69,12 @@ git config --global user.email "you@example.com"
 ```
 This tells Git who you are.
 
+**2.1.2** Connect to Github
+
+If you need to access GitHub from Windows Subsystem for Linux (WSL), we recommend using **SSH**.  
+After you have generated an SSH key and added the public key to your GitHub account, Git operations will no longer prompt you for a password or any additional verification.
+
+For detailed instructions on generating keys, connecting, and authenticating with GitHub over SSH, please refer to the [official documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
 
 **2.3** Install Icarus Verilog
 
@@ -103,6 +109,13 @@ git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
 This tells Git who you are.
+
+**2.4.2** Connect to GitHub
+
+If you need to access GitHub from Windows Subsystem for **MacOS**, we recommend using **SSH**.  
+After you have generated an SSH key and added the public key to your GitHub account, Git operations will no longer prompt you for a password or any additional verification.
+
+For detailed instructions on generating keys, connecting, and authenticating with GitHub over SSH, please refer to the [official documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
 
 **2.5** Install Icarus Verilog
 
