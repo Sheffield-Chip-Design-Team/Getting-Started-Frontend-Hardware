@@ -44,12 +44,8 @@ endmodule
 
 // Exercise 4 - Structural Modelling
 
-module adder_4_bit_structural (
-    input wire [3:0] a,
-    input wire [3:0] b,
-    output wire [4:0] sum
-);
-
+module adder_4_bit_structural ();
+    
     // 4. Use a composition of the previous modules together to make a 4-bit adder
     
 endmodule
