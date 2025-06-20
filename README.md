@@ -35,7 +35,7 @@ From now on, 'Linux' instructions refer to commands entered on in either a Linux
 
 ---
 
-## 🧰 Tool Installation Setup (Linux)
+## 🧰 Tool Installation (Linux)
 
 *Linux Tutorial*
 
@@ -70,7 +70,7 @@ iverilog -v
 ```
 
 
-## 🧰 Tool Installation Setup (Mac)
+## 🧰 Tool Installation (Mac)
 
 1. Update Global Packages
 
