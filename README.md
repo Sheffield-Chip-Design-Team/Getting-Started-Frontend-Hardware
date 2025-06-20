@@ -5,10 +5,8 @@ This guide helps you set up a Verilog development environment on any OS using **
 ---
 
 ## 🛠 Prerequisites
-Laptop with 4GB+ RAM
-2GB of Storage.
-
----
+Laptop with 4 GB+ RAM
+2 GB+ of Storage.
 
 ## 🧰 Prerequiste Setup (Windows Only)
 
@@ -34,6 +32,8 @@ This will open VSCode with the WSL remote server, alloowing you to use the Linux
 filesystem with ther Windows VSCode app.
 
 From now on, 'Linux' instructions refer to commands entered on in either a Linux or WSL terminal and Mac instructions are for MacOS users.
+
+---
 
 ## 🧰 Tool Installation Setup (Linux)
 
@@ -76,7 +76,9 @@ iverilog -v
 
 
 2.1 Install the Homebrew Package manager using this official guide: [Homebrew Installation](https://brew.sh/)
+
 2.2 Restart the shell.
+
 2.3 Test installation by running:
 ```bash
 brew --version
