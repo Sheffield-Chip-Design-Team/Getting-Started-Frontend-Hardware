@@ -127,8 +127,7 @@ iverilog -v
 
 ## You are now ready to to begin the Tutorial!
 
-
-
+begin with the design section and then move on to verification.
 
 
 
