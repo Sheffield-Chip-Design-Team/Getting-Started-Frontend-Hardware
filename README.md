@@ -125,7 +125,7 @@ iverilog -v
 3.5 copy the first directory that comes up (usually /usr/local/bin) into
 [This field](vscode://settings/verilog.linting.path) - Make sure to not include the filename at the end of the path!
 
-## You are now ready to to begin Project 0!
+## You are now ready to to begin the Tutorial!
 
 
 
