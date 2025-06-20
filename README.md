@@ -1,6 +1,6 @@
 # 🚀 Getting Started with Frontend Digital Design
 
-This guide helps you set up a Verilog development environment on any OS using **WSL**, **Git**, **Icarus Verilog**, **VSCode**, and the **mshr-h.veriloghdl** extension.
+This guide helps you set up a Verilog development environment on any OS using **WSL**, **Git**, **Icarus Verilog**, **VSCode**, and the **veriloghdl** extension.
 
 ---
 
