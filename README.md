@@ -10,17 +10,18 @@ Laptop with 4 GB+ RAM
 
 ## 🧰 Prerequiste Setup (Windows Only)
 
+If you are using Windows, it is often easier to develop in a Linux based environment, lots of things from PATH management to the directory format are much simpler in a Unix-based system, saving you time and lettig you focus on what is actually important - creating your first designs!
 
-1.1 Install VsCode fron the link: [VSCode](https://code.visualstudio.com)
+**1.1** Install VsCode fron the link: [VSCode](https://code.visualstudio.com)
 
-
-1.2 Open PowerShell as Administrator and run:
+**1.2**  Open PowerShell as Administrator and run:
    ```powershell
    wsl --install
    ```
 
-1.2a Restart your computer if prompted.
-1.3a Launch Ubuntu from the Start Menu and create a username/password when prompted.
+**1.2a**  Restart your computer if prompted.
+
+**1.3a**  Launch Ubuntu from the Start Menu and create a username/password when prompted.
 
 Inside the WSL terminal, 
 
@@ -39,21 +40,28 @@ From now on, 'Linux' instructions refer to commands entered on in either a Linux
 
 *Linux Tutorial*
 
-1. Update Global Packages
+In a linux system, you can use the 'apt' package manager to install tools. 'sudo' means SUperuserDO and is like giving yourself admin rights on a Windows machinie.
 
+Common comands
 ```bash
+mkdir testdir
+touch hello.txt
+cd ./testdir
+ls
+cd ..
+ls
 sudo apt update
-sudo apt install git
 ```
+Run these and try and figure out what is happening!
 
-2. Install Git
+**2.1** Install Git
 
 ```bash
 sudo apt install git
 git --version
 ```
 
-3. Configure Git
+**2.2** Configure Git
 
 ```bash
 git config --global user.name "Your Name"
@@ -62,36 +70,33 @@ git config --global user.email "you@example.com"
 This tells Git who you are.
 
 
-4. Install Icarus Verilog
+**2.3** Install Icarus Verilog
 
 ```bash
 sudo apt install iverilog
 iverilog -v
 ```
 
-
 ## 🧰 Tool Installation (Mac)
 
-1. Update Global Packages
+**2.1** Install the Homebrew Package manager using this official guide: [Homebrew Installation](https://brew.sh/)
 
+**2.2** Restart the shell.
 
-2.1 Install the Homebrew Package manager using this official guide: [Homebrew Installation](https://brew.sh/)
-
-2.2 Restart the shell.
-
-2.3 Test installation by running:
-```bash
+**2.3** Test installation by running:
+```bash 
 brew --version
 ```
 
-3. Install Git
+You should get a response that is not an error message.
+
+**2.4** Install Git
 
 ```bash
 brew install git
 git --version
 ```
-
-4. Configure Git
+**2.4.1** Configure Git
 
 ```bash
 git config --global user.name "Your Name"
@@ -99,10 +104,31 @@ git config --global user.email "you@example.com"
 ```
 This tells Git who you are.
 
-4. Install Icarus Verilog
+**2.5** Install Icarus Verilog
 
 ```bash
 brew install iverilog
 iverilog -v
 ```
+
+## 🔧 Setting Up VSCode (All)
+
+3.1 Navigate to the Extensions Panel
+3.2 Install [VerilogHDL Extension](https://marketplace.visualstudio.com/items?itemName=mshr-h.VerilogHDL)
+
+3.3 [Select iverilog in this field](vscode://settings/verilog.linting.linter)
+   
+3.4 in the terminal run
+   ```bash
+   whereis iverilog
+   ```
+3.5 copy the first directory that comes up (usually /usr/local/bin) into
+[This field](vscode://settings/verilog.linting.path) - Make sure to not include the filename at the end of the path!
+
+## You are now ready to to begin Project 0!
+
+
+
+
+
 
